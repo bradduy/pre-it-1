@@ -1,0 +1,8 @@
+my_list = [5, 10, 15, 20, 25]
+print("phần tử đầu tiên:", my_list[0])
+print("phần tử cuối cùng:", my_list[-1])
+my_list.append(30)
+my_list.insert(1,12)
+my_list.remove (15)
+my_list[1] = 99
+print("List sau khi thay đổi:", my_list)
