@@ -1,7 +1,0 @@
-My_Tuple = ("Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturdsy", "Sunday")
-print(My_Tuple[0])
-print(My_Tuple[4])
-My_list = list(My_Tuple)
-My_list.append("Funday")
-My_Tuple = tuple(My_list)
-print(My_Tuple)
