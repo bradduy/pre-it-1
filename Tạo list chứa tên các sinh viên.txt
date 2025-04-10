@@ -1,0 +1,17 @@
+sinh_viên = [" An", "Bình", "Chi", "Dũng"]
+print("Danh sách ban đầu :", sinh_viên)
+
+sinh_viên.append("Hà")
+print("sau khi thêm 'Hà':", sinh_viên)
+
+sinh_viên.insert(1, "Linh")
+print("sau khi thêm 'Linh' vào vị trí số 1:", sinh_viên)
+
+sinh_viên.remove("Chi")
+print("sau khi xoá 'Chi':", sinh_viên)
+
+index_Bình = sinh_viên.index("Bình")
+sinh_viên[index_Bình] = "Bình (đã cập nhật)"
+print("sau khi cập nhật tên Bình:", sinh_viên)
+
+print("Danh sách cuối cùng:", sinh_viên)
