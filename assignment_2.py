@@ -4,7 +4,6 @@
 # Bài 1: Sắp Xếp Theo Tần Suất Xuất Hiện
 # Sắp xếp danh sách theo tần suất xuất hiện (ít đến nhiều).
 # Nếu bằng tần suất, số lớn hơn đứng trước.
-from collections import Counter
 
 def sort_by_frequency(nums: list[int]) -> list[int]:
     # 👉 TODO: Viết code ở đây
