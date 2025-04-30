@@ -1,0 +1,17 @@
+fruit_set = {"apple", "banana", "cherry"}
+print("Set ban đầu:", fruit_set)
+
+fruit_set.add("orange")
+print("Set sau khi thêm 'orange':", fruit_set)
+
+fruit_set.add("banana")
+print("Sau khi thêm lại 'banana':", fruit_set)
+
+fruit_set.remove("apple")  # Đã sửa từ fruit thành fruit_set
+print("Sau khi xoá 'apple':", fruit_set)
+
+if "mango" not in fruit_set:
+    fruit_set.add("mango")
+    print("Đã thêm 'mango' vào set")
+    
+print("Set cuối cùng:", fruit_set)

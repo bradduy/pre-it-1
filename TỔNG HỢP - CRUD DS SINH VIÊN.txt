@@ -1,0 +1,11 @@
+các_ngày_trong_tuần = ("Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy")
+print("Tuple ban đầu:", các_ngày_trong_tuần)
+
+print("Thứ Hai:", các_ngày_trong_tuần[0])
+print("Thứ Sáu:", các_ngày_trong_tuần[4])
+
+danh_sách_ngày = list(các_ngày_trong_tuần)
+danh_sách_ngày.append("Chủ Nhật")
+
+các_ngày_trong_tuần_mới = tuple(danh_sách_ngày)
+print("Tuple sau khi thêm 'Chủ Nhật':", các_ngày_trong_tuần_mới)
